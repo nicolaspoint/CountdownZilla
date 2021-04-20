@@ -24,7 +24,9 @@ function getTimeRemaining(endtime) {
     };
 }
 
-function initializeClock(endtime) {
+var endtime = document.getElementById('countdownzilla_plugin');
+
+(function initializeClock(endtime) {
     //var clock = document.getElementById(id);
 
     var daysSpan = document.querySelector('.countdownzilla_days');
@@ -49,7 +51,4 @@ function initializeClock(endtime) {
 
     updateClock();
     var timeinterval = setInterval(updateClock, 1000);
-}
-
-var endtime = document.getElementById('countdownzilla_plugin');
-if (endtime) initializeClock(endtime);
+}(endtime))

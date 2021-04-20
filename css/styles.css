@@ -1,0 +1,42 @@
+#countdownzilla_plugin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #FFF;
+    background-color: rgb(50, 122, 205);
+    border-radius: 5px;
+}
+
+.countdownzilla_countdown {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.countdownzilla_countdown_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 70px;
+    margin: 5px;
+    padding: 5px 0;
+    background: rgb(71, 68, 228);
+    border-radius: 5px;
+}
+
+.countdownzilla_countdown_number {
+    font-size: 4.5rem;
+}
+.countdownzilla_countdown_span_text {
+    font-size: 16px;
+}
+
+.countdownzilla_title {
+    margin: 0 !important;
+    padding: 0;
+}
